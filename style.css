@@ -2,4 +2,31 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    direction: rtl;
+    font-family: "Shabnam";
+}
+
+@font-face {
+    font-family: "Shabnam";
+    src: url(./fonts/Shabnam-FD.woff2);
+}
+
+body{
+    background-color: #fafafa;
+}
+
+.container{
+    max-width: 80rem;
+    margin: auto;
+}
+
+.head_section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.title{
+    font-size: 1.2rem;
+    text-justify: ;
 }
