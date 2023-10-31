@@ -75,7 +75,7 @@ body{
 }
 
 .box > p{
-    margin-bottom: 2rem;
+    height: 68px;
     text-align: justify;
 }
 
@@ -83,6 +83,7 @@ body{
     display: flex;
     align-items: center;
     gap: .5rem;
+    margin-top: 2rem;
 }
 
 .discount{
